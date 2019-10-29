@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Preferencias</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="idiomas">
+        <item>English</item>
+        <item>Español</item>
+    </string-array>
+    <string-array name="codes">
+        <item>English</item>
+        <item>Español</item>
+    </string-array>
+</resources>

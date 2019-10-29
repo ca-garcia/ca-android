@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ContentProviderUse</string>
+    <string name="consultar">Cons</string>
+    <string name="insertar">Ins</string>
+    <string name="eliminar">Elim</string>
+    <string name="llamadas">Calls</string>
+</resources>
