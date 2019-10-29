@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollLocation"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp" >
+
+    <TextView
+        android:id="@+id/locationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posición Actual:"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/lblLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitud"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txtLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/lblLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitud"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txtLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/lblPrecision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precision: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/lblProviders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proveedores Activos:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txtProviders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"/>
+
+    <TextView
+        android:id="@+id/lblStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnActiveLoc"
+        android:layout_height="wrap_content"
+        android:text="Activar" 
+        android:layout_width="@dimen/btnWith" 
+        android:layout_gravity="center_horizontal" android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btnDeactiveLoc"
+        android:layout_width="@dimen/btnWith"
+        android:layout_height="wrap_content"
+        android:text="Desactivar" 
+        android:layout_gravity="center_horizontal"/>
+    
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="@dimen/btnWith"
+        android:layout_height="wrap_content"
+        android:text="Mapa" 
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_menu">
+    <item android:id="@+id/MnuOpc1" 
+        android:title="Mostrar Preferencias"
+        android:icon="@android:drawable/btn_star">        
+    </item>
+	<item android:id="@+id/MnuOpc2" 
+	    android:title="Mostrar Dialogo de Alerta"
+		android:icon="@android:drawable/ic_dialog_map">	    
+	</item>
+	<item android:id="@+id/MnuOpc3"
+	     android:title="Opcion 3 Submenu"
+	     android:icon="@android:drawable/ic_btn_speak_now">
+	     <menu>
+			<item android:id="@+id/SubMnuOpc1"
+				android:title="Opcion 3.1" />
+			<item android:id="@+id/SubMnuOpc2"
+				android:title="Opcion 3.2" />
+		</menu>
+	</item>
+	<item android:id="@+id/aboutOpc"
+	     android:title="Acerca de"
+	     android:icon="@android:drawable/ic_dialog_info">
+	</item>
+	<item android:id="@+id/exitOpc"
+	     android:title="Salir"
+	     android:icon="@android:drawable/ic_lock_power_off">
+	</item>
+</menu>

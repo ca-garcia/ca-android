@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cu.home.appfirststeps"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="14" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name" >
+        
+    <uses-library android:name="com.google.android.maps" />
+    
+        <activity
+            android:name=".ActivityAppFirstSteps"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ActivityFrmMensaje"></activity>        
+        <activity android:name=".ActivityListOptions"></activity>
+        <activity android:name=".ActivityTabs"></activity>
+        <activity android:name=".ActivityCharCounter" android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name=".ActivityHelloName"></activity>
+        <activity android:name=".ActivityAbout" android:label="@string/about_title"></activity>
+        <activity android:name=".ActivitySplashscreen"
+            	  android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+         </activity>
+        <activity android:name=".ActivitySQLite" android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"></activity>
+        <activity android:name=".ActivitySQLiteConsult" android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"></activity>
+        <activity android:name=".ActivitySQLiteData" android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"></activity>
+        <activity android:name=".ActivitySQLiteAddUser" android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"></activity>
+        <activity android:name=".ActivityPreferencesScreen"></activity>
+        <activity android:name="ActivityLocationProvider"></activity>
+        <activity android:name="ActivityMap"></activity>
+        
+    </application>
+
+</manifest>

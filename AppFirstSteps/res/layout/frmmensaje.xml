@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+        <TextView android:id="@+id/TxtMensaje"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:text="@string/hello"></TextView>
+
+		<Button
+		    android:id="@+id/btnBack"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="@dimen/btnWith"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_below="@+id/TxtMensaje"
+		    android:layout_marginRight="14dp"
+		    android:layout_marginTop="14dp"
+		    android:text="@string/back" />
+
+    </RelativeLayout>

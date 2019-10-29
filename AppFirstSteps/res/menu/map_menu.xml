@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/mapSatellite" 
+        android:title="Satélite"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:checkable="true">        
+    </item>
+    <item android:id="@+id/mapCenter" 
+        android:title="Centrar"
+        android:icon="@android:drawable/ic_menu_directions">        
+    </item>
+    <item android:id="@+id/myPosition" 
+        android:title="Mi posición"
+        android:icon="@android:drawable/ic_menu_mylocation">        
+    </item>
+    
+
+</menu>

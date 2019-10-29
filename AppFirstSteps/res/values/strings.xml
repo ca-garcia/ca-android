@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello Carlos, welcome to your first android app!</string>
+    <string name="app_name">AppFirstSteps</string>
+    <string name="hola">Saludar</string>
+    <string name="nombre">Escriba su nombre:</string>
+    <string name="saludo">Welcome to your first android app!</string>
+    <string name="back">Atras</string>
+    <string name="examples">Ejemplos:</string>
+    <string name="title">Título</string>
+    <string name="subtitle">Subtítulo</string>
+    <string name="charCount">Contador de caracteres:</string>
+    <string name="tab1content">Contenido Tab 1</string>
+    <string name="tab2content">Contenido Tab 2</string>
+    <string name="group">Group</string>
+    <string name="example_title">Example Title</string>
+    <string name="example_subtitle">Example Subtitle</string>
+    <string name="inicio">Inicio</string>
+    <string name="icono_lista">Icono de elemento del listado.</string>
+    <string name="app_version">Version 1.0</string>
+    <string name="freeware_license">Freeware License 2015</string>
+    <string name="about_image">About Image</string>
+    <string name="about_title">Acerca de</string>
+    <string name="sqlite_example">SQLite Example</string>
+    <string name="crear_conectar">Crear/Conectar</string>
+    <string name="connetion_status">Conexión exitosa!</string>
+    <string name="sql_hint">Se conecta a la base de datos, la crea si no existe.</string>
+    <string name="populate_status">Datos insertados con éxito!</string>
+    <string name="btn_populate">Populate DB</string>
+    <string name="btn_examinar_db">Examinar DB</string>
+    <string name="name">Nombre</string>
+    <string name="phone">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="street">Dirección</string>
+    <string name="country">Ciudad/Estado</string>
+    <string name="save">Save Contact</string>
+    <string name="add_user">Añadir Usuario</string>
+    <string name="edit_user">Editar</string>
+    <string name="delete_user">Eliminar</string>
+    <string name="deleteContact">Está seguro que desea eliminarlo?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+</resources>
