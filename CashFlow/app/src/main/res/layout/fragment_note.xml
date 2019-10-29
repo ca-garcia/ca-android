@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cu.example.ca.cashflow.MainActivity$PlaceholderFragment"
+    android:background="@color/colorbgNote">
+
+    <!--<TextView-->
+        <!--android:id="@+id/section_label"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Hello!"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btnSaveNote"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Save"-->
+        <!--android:layout_gravity="center_horizontal" />-->
+
+    <cu.example.ca.cashflow.LinedEditText
+        android:id="@+id/edtQuickNote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="vertical"
+        android:gravity="top"
+        android:hint="Content"
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:scrollbars="vertical"
+        android:textSize="18sp"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        />
+
+</LinearLayout>

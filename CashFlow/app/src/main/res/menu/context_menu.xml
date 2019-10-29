@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<!--<item android:id="@+id/ctxMenuConfirm"-->
+		<!--android:title="Confirmado">-->
+	<!--</item>-->
+	<item android:id="@+id/ctxMenuEdit" android:title="Editar"></item>
+	<item android:id="@+id/ctxMenuRemove" android:title="Borrar"></item>
+</menu>
