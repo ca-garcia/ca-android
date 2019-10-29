@@ -10,16 +10,16 @@
 		<item>mytheme</item>
 		<item>light_dark_bar</item>
 	</string-array>
-	<string-array name="pais">
-		<item>Mexico</item>
-		<item>España</item>
-		<item>Francia</item>
-		<item>Alemania</item>
+	<string-array name="calif">
+		<item>Mala</item>
+		<item>Regular</item>
+		<item>Buena</item>
+		<item>Excelente</item>
 	</string-array>
-	<string-array name="codigopais">
-		<item>MEX</item>
-		<item>ESP</item>
-		<item>FRA</item>
-		<item>ALE</item>
+	<string-array name="codigocalif">
+		<item>M</item>
+		<item>R</item>
+		<item>B</item>
+		<item>E</item>
 	</string-array>
 </resources>

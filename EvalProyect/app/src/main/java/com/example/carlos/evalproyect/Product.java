@@ -2,6 +2,7 @@ package com.example.carlos.evalproyect;
 
 public class Product {
 	
+	private String id;
 	private String name;
 	private String model;
 	private String item;
@@ -9,7 +10,8 @@ public class Product {
 	public Product() {
 	}
 
-	public Product(String pname, String pmodel, String pitem){
+	public Product(String pid,String pname, String pmodel, String pitem){
+		id = pid;
 		name = pname;
 		model = pmodel;
 		item = pitem;
@@ -39,4 +41,11 @@ public class Product {
 		this.item = item;
 	}
 
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
 }

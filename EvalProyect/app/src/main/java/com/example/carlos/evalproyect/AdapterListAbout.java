@@ -11,34 +11,23 @@ import android.widget.TextView;
 public class AdapterListAbout extends ArrayAdapter<Titular> {
 	
 	Activity context;	
-	Titular[] datos;
+//	Titular[] datos;
+
+	//List with subitems
+	static Titular[] datos =
+			new Titular[]{
+					new Titular("Acerca de esta aplicaci贸n", "Esta aplicaci贸n fue desarrollada " +
+							"como proyecto evaluativo en para el Curso de Android Avanzado de Desoft, con el 煤nico prop贸sito de entrenar la programaci贸n Android. "
+							+ "En ella se muestran los principales componentes y funcionalidades utilizadas durante el curso."),
+					new Titular("Autor", "Carlos Alberto Garc铆a Brizuela"),
+					new Titular("Contactar", "carlosalbertogarcia.b@gmail.com"),
+					new Titular("",""),//para q se vea la linea divisora debajo del elem anterior.
+			};
 	
-	/*
-	 * Comentariado el arreglo 'Titular[] datos' para poder reutilizar la
-	 * clase adaptador en cualquier actividad y pasarle la lista creada por 
-	 * parametro al constructor. Fue necesario crear el arreglo como atributo 
-	 * de la clase para poder utilizarlo en el metodo getView().
-	 * 
-	 * */
-//	final Titular[] datos =
-//    		new Titular[]{
-//    		new Titular("Acerca de esta aplicaci髇", ""),
-//    		new Titular("Autor", "Carlos Alberto Garcia Brizuela"),
-//    		new Titular("Contactar", "carlosalbertogarcia.b@gmail.com"),
-//    		new Titular("T韙ulo 3", "Subt韙ulo largo 3"),
-//    		new Titular("T韙ulo 4", "Subt韙ulo largo 4"),
-//    		new Titular("T韙ulo 5", "Subt韙ulo largo 5"),
-//    		new Titular("T韙ulo 6", "Subt韙ulo largo 6"),
-//    		new Titular("T韙ulo 7", "Subt韙ulo largo 7"),
-//    		new Titular("T韙ulo 8", "Subt韙ulo largo 8"),
-//    		new Titular("T韙ulo 9", "Subt韙ulo largo 9"),
-//    		new Titular("T韙ulo 10", "Subt韙ulo largo 10")
-//    		};
-	
-	AdapterListAbout(Activity context, Titular[] datos) {//constructor
+	AdapterListAbout(Activity context) {//constructor
 		super(context, R.layout.listview_item, datos);
 		this.context = context;
-		this.datos = datos;
+//		this.datos = datos;
 		}
 	
 		public View getView(int position, View convertView, ViewGroup parent)

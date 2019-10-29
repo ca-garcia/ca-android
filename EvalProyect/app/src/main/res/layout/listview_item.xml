@@ -16,5 +16,5 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Subtitle"
-        android:id="@+id/txtSubtitle"/>
+        android:id="@+id/txtSubtitle" />
 </LinearLayout>

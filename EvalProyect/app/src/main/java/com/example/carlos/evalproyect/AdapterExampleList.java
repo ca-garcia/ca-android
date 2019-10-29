@@ -13,9 +13,9 @@ public class AdapterExampleList extends ArrayAdapter<Product> {
 	
 	private static Product[] datos =
 			new Product[]{
-			new Product("Titulo 8", "Subtitulo largo 8",""),
-			new Product("Titulo 9", "Subtitulo largo 9",""),
-			new Product("Titulo 10", "Subtitulo largo 10","")
+			new Product("1","Titulo 8", "Subtitulo largo 8",""),
+			new Product("2","Titulo 9", "Subtitulo largo 9",""),
+			new Product("3","Titulo 10", "Subtitulo largo 10","")
 			};
 	
 	AdapterExampleList(Activity context,Product[] arr) {//constructor

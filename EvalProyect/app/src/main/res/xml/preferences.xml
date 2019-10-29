@@ -4,35 +4,39 @@
 		<CheckBoxPreference
 			android:key="opcion1"
 			android:title="First Time"
-			android:summary="@string/first_time" />
+			android:summary="@string/first_time"
+			android:icon="@android:drawable/ic_menu_day"/>
 		<EditTextPreference
 			android:key="opcion2"
-			android:title="Propietario"
+			android:title="Email"
 			android:summary="@string/pref_user"
-			android:dialogTitle="Introduce valor"
-			android:icon="@android:drawable/ic_menu_agenda" />
+			android:dialogTitle="Escriba su email:"
+			android:icon="@android:drawable/ic_dialog_email"
+			android:inputType="textEmailAddress"/>
 	</PreferenceCategory>
-	<PreferenceCategory android:title="CategorÃ­a 2">
+	<PreferenceCategory android:title="Configuración">
 		<ListPreference
 			android:key="opcion3"
-			android:title="Tema visual"
-			android:summary="Selecciona el tema visual de la app"
-			android:dialogTitle="Seleccionar tema"
-			android:entries="@array/theme"
-			android:entryValues="@array/theme_code"
-			android:defaultValue="light_dark_bar"
-			android:icon="@android:drawable/ic_menu_agenda"/>
+			android:title="Califica nuestra App"
+			android:summary="Seleccione que calificación cree que merece nuestra App."
+			android:dialogTitle="Calificación:"
+			android:entries="@array/calif"
+			android:entryValues="@array/codigocalif"
+			android:defaultValue="Buena"
+			android:dialogIcon="@android:drawable/ic_menu_share"/>
 		<SwitchPreference 
 		    android:key="opcion4"
 		    android:title="Switch Test"
 		    android:icon="@android:drawable/ic_menu_compass"/>
 		<MultiSelectListPreference
 			android:key="opcion5"
-			android:title="A dÃ³nde quieres ir?"
-			android:summary="Seleccione los paÃ­ses que desea visitar algun dÃ­a"
-			android:dialogTitle="Indicar Pais"
-			android:entries="@array/pais"
-			android:entryValues="@array/codigopais" />
+			android:title="Tema visual"
+			android:summary="Seleccione los temas visuales que desea activar."
+			android:dialogTitle="Seleccionar tema:"
+			android:entries="@array/theme"
+			android:entryValues="@array/theme_code"
+			android:icon="@android:drawable/ic_menu_preferences"
+			android:dialogIcon="@android:drawable/ic_dialog_dialer"/>
 	</PreferenceCategory>
 	   
 

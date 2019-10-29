@@ -29,37 +29,7 @@ public class AdapterCursorList extends ArrayAdapter<Product> {
 		this.context = context;
 
 //		products = new ArrayList<>(data.getCount());
-		products = products2;
-
-//		this.data = datos;
-//		products = new ArrayList<>();
-//		products.add(0,new Product("Name1","Model1","ItemNum1"));
-//		products.add(1,new Product("Name12","Model12","ItemNum12"));
-
-
-//		if (data.moveToFirst()) {
-//			String name;
-//			String model;
-//			String item;
-//
-//			int colName = data.getColumnIndex(ProductsProvider.Products.COL_NAME);
-//			int colModel = data.getColumnIndex(ProductsProvider.Products.COL_MODEL);
-//			int colItem = data.getColumnIndex(ProductsProvider.Products.COL_ITEM);
-//
-//			do {
-//				name = data.getString(colName);
-//				model = data.getString(colModel);
-//				item = data.getString(colItem);
-//
-//				Product elem = new Product();
-//				elem.setName(name);
-//				elem.setModel(model);
-//				elem.setItem(item);
-//				products.add(elem);
-////				txtResultados.append(nombre + " - " + telefono + " - " + email + "\n");
-//
-//			} while (data.moveToNext());
-//		}
+		this.products = products2;
 
 		}//constructor
 
