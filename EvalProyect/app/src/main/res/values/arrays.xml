@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="theme">
+		<item>Dark</item>
+		<item>MyTheme</item>
+		<item>Light.DarkActionBar</item>
+	</string-array>
+	<string-array name="theme_code">
+		<item>dark</item>
+		<item>mytheme</item>
+		<item>light_dark_bar</item>
+	</string-array>
+	<string-array name="pais">
+		<item>Mexico</item>
+		<item>España</item>
+		<item>Francia</item>
+		<item>Alemania</item>
+	</string-array>
+	<string-array name="codigopais">
+		<item>MEX</item>
+		<item>ESP</item>
+		<item>FRA</item>
+		<item>ALE</item>
+	</string-array>
+</resources>

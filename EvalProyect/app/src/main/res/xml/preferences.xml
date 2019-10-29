@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	<PreferenceCategory android:title="Usuario">
+		<CheckBoxPreference
+			android:key="opcion1"
+			android:title="First Time"
+			android:summary="@string/first_time" />
+		<EditTextPreference
+			android:key="opcion2"
+			android:title="Propietario"
+			android:summary="@string/pref_user"
+			android:dialogTitle="Introduce valor"
+			android:icon="@android:drawable/ic_menu_agenda" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="CategorÃ­a 2">
+		<ListPreference
+			android:key="opcion3"
+			android:title="Tema visual"
+			android:summary="Selecciona el tema visual de la app"
+			android:dialogTitle="Seleccionar tema"
+			android:entries="@array/theme"
+			android:entryValues="@array/theme_code"
+			android:defaultValue="light_dark_bar"
+			android:icon="@android:drawable/ic_menu_agenda"/>
+		<SwitchPreference 
+		    android:key="opcion4"
+		    android:title="Switch Test"
+		    android:icon="@android:drawable/ic_menu_compass"/>
+		<MultiSelectListPreference
+			android:key="opcion5"
+			android:title="A dÃ³nde quieres ir?"
+			android:summary="Seleccione los paÃ­ses que desea visitar algun dÃ­a"
+			android:dialogTitle="Indicar Pais"
+			android:entries="@array/pais"
+			android:entryValues="@array/codigopais" />
+	</PreferenceCategory>
+	   
+
+</PreferenceScreen>
